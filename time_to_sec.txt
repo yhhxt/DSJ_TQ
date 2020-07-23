@@ -1,0 +1,3 @@
+create table tq_time2
+select TIME_TO_SEC(最低电压所在时刻点)/900,`最低电压所在时刻点`
+from tq_time;
